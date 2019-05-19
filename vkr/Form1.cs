@@ -49,14 +49,14 @@ namespace vkr
             // TODO: данная строка кода позволяет загрузить данные в таблицу "бдDataSet.TableNF". При необходимости она может быть перемещена или удалена.
             this.tableNFTableAdapter.Fill(this.бдDataSet.TableNF);
             label1.Text = regf.log;
-          //  if (label1.Text == "admin")
-          //  {
-          //      
-          //  }
-          //  else
-          //  {
-          //      tabControl1.TabPages.Remove(tabPage4);
-          //  }
+            if (label1.Text == "admin")
+            {
+                
+            }
+            else
+            {
+                tabControl1.TabPages.Remove(tabPage4);
+            }
 
             
 
