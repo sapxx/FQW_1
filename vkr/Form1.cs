@@ -25,6 +25,10 @@ namespace vkr
             myConnection = new OleDbConnection(connectString);
             myConnection.Open();
             regf.ShowDialog();
+            if (regf.DialogResult == DialogResult.OK)
+            {
+                this.Show();
+            }
             
             
 
@@ -319,6 +323,17 @@ namespace vkr
         private void button9_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            regf.ShowDialog();
+            if (regf.DialogResult == DialogResult.OK)
+            {
+                this.Show();
+            }
+
         }
     }
 }

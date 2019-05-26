@@ -13,6 +13,7 @@ namespace vkr
     
     public partial class reg : Form
     {
+        
         public string log;
         public static string connectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=бд.mdb;";
         private OleDbConnection myConnection;
@@ -27,6 +28,8 @@ namespace vkr
         {
             panel2.Hide();
             panel1.Hide();
+            login.Clear();
+            password.Clear();
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -42,12 +45,15 @@ namespace vkr
 
         public void enter_Click(object sender, EventArgs e)
         {
+            
             log = login.Text;
             myConnection.Close();
             if (login.Text == "admin")
             {
                 if (password.Text == "admin")
                 {
+                    
+                    this.DialogResult = DialogResult.OK;
                     this.Close();
                 }
                 else
@@ -59,6 +65,9 @@ namespace vkr
             {
                 if (password.Text == "qq")
                 {
+                    
+                    this.DialogResult = DialogResult.OK;
+                    
                     this.Close();
                 }
                 else
