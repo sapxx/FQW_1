@@ -112,10 +112,12 @@ namespace vkr
         {
             panel1.Hide();
             panel2.Show();
+            log = null;
         }
 
         private void input_Click(object sender, EventArgs e)
         {
+            myConnection.Open();
             string name = richINC.Text;
             string trouble = richTrouble.Text;
             string info = richinfo.Text;

@@ -55,7 +55,6 @@ namespace vkr
             label1.Text = regf.log;
             if (label1.Text == "admin")
             {
-                
             }
             else
             {
@@ -148,10 +147,9 @@ namespace vkr
                 {
                     string inca = y1Form.inca;
                     string adress = y1Form.adra;
-                    string phone = y1Form.phoa;
-                    string email = y1Form.ema;
-                    string query = "INSERT INTO TableInc(Организация,Адрес,Телефон,Email)"
-                                         + "VALUES ('" + inca + "','" + adress + "','" + phone + "','" + email + "')";
+                    string phone = y1Form.phoa + ";" + y1Form.ema;
+                    string query = "INSERT INTO TableInc(Организация,Адрес,Телефон_Email)"
+                                         + "VALUES ('" + inca + "','" + adress + "','" + phone + "')";
                     OleDbCommand command = new OleDbCommand(query, myConnection);
                     command.ExecuteNonQuery();
                     this.tableWorkersTableAdapter.Update(this.бдDataSet.TableWorkers);
@@ -332,6 +330,32 @@ namespace vkr
             if (regf.DialogResult == DialogResult.OK)
             {
                 this.Show();
+                label1.Text = regf.log;
+                if (label1.Text == "admin")
+                {
+                    this.Refresh();
+                    this.tabPage4 = new System.Windows.Forms.TabPage();
+                    this.tabPage4.SuspendLayout();
+                    this.tabControl1.Controls.Add(this.tabPage4);
+                    // 
+                    // tabPage4
+                    // 
+                    this.tabPage4.Controls.Add(this.button6);
+                    this.tabPage4.Controls.Add(this.dataGridView4);
+                    this.tabPage4.Location = new System.Drawing.Point(4, 22);
+                    this.tabPage4.Name = "tabPage4";
+                    this.tabPage4.Size = new System.Drawing.Size(1040, 384);
+                    this.tabPage4.TabIndex = 3;
+                    this.tabPage4.Text = "Инженеры";
+                    this.tabPage4.UseVisualStyleBackColor = true;
+                    this.tabPage4.ResumeLayout(false);
+                    button2.PerformClick();
+                }
+                else
+                {
+                    tabControl1.TabPages.Remove(tabPage4);
+                }
+                
             }
 
         }

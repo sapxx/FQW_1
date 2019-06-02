@@ -323,6 +323,7 @@
             this.dataGridView2.DataSource = this.tableAFBindingSource;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
             this.dataGridView2.Size = new System.Drawing.Size(1040, 349);
             this.dataGridView2.TabIndex = 1;
             // 
@@ -331,54 +332,63 @@
             this.dataGridViewTextBoxColumn2.DataPropertyName = "№";
             this.dataGridViewTextBoxColumn2.HeaderText = "№";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // организацияDataGridViewTextBoxColumn1
             // 
             this.организацияDataGridViewTextBoxColumn1.DataPropertyName = "Организация";
             this.организацияDataGridViewTextBoxColumn1.HeaderText = "Организация";
             this.организацияDataGridViewTextBoxColumn1.Name = "организацияDataGridViewTextBoxColumn1";
+            this.организацияDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // датарегистрацииDataGridViewTextBoxColumn1
             // 
             this.датарегистрацииDataGridViewTextBoxColumn1.DataPropertyName = "Дата_регистрации";
             this.датарегистрацииDataGridViewTextBoxColumn1.HeaderText = "Дата_регистрации";
             this.датарегистрацииDataGridViewTextBoxColumn1.Name = "датарегистрацииDataGridViewTextBoxColumn1";
+            this.датарегистрацииDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // датазакрытияDataGridViewTextBoxColumn1
             // 
             this.датазакрытияDataGridViewTextBoxColumn1.DataPropertyName = "Дата_закрытия";
             this.датазакрытияDataGridViewTextBoxColumn1.HeaderText = "Дата_закрытия";
             this.датазакрытияDataGridViewTextBoxColumn1.Name = "датазакрытияDataGridViewTextBoxColumn1";
+            this.датазакрытияDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // статусDataGridViewTextBoxColumn1
             // 
             this.статусDataGridViewTextBoxColumn1.DataPropertyName = "Статус";
             this.статусDataGridViewTextBoxColumn1.HeaderText = "Статус";
             this.статусDataGridViewTextBoxColumn1.Name = "статусDataGridViewTextBoxColumn1";
+            this.статусDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // оборудываниеDataGridViewTextBoxColumn1
             // 
             this.оборудываниеDataGridViewTextBoxColumn1.DataPropertyName = "Оборудывание";
             this.оборудываниеDataGridViewTextBoxColumn1.HeaderText = "Оборудывание";
             this.оборудываниеDataGridViewTextBoxColumn1.Name = "оборудываниеDataGridViewTextBoxColumn1";
+            this.оборудываниеDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // суммаDataGridViewTextBoxColumn1
             // 
             this.суммаDataGridViewTextBoxColumn1.DataPropertyName = "Сумма";
             this.суммаDataGridViewTextBoxColumn1.HeaderText = "Сумма";
             this.суммаDataGridViewTextBoxColumn1.Name = "суммаDataGridViewTextBoxColumn1";
+            this.суммаDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // исполнительDataGridViewTextBoxColumn1
             // 
             this.исполнительDataGridViewTextBoxColumn1.DataPropertyName = "Исполнитель";
             this.исполнительDataGridViewTextBoxColumn1.HeaderText = "Исполнитель";
             this.исполнительDataGridViewTextBoxColumn1.Name = "исполнительDataGridViewTextBoxColumn1";
+            this.исполнительDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // Выполнено_работ
             // 
             this.Выполнено_работ.DataPropertyName = "Выполнено_работ";
             this.Выполнено_работ.HeaderText = "Выполнено_работ";
             this.Выполнено_работ.Name = "Выполнено_работ";
+            this.Выполнено_работ.ReadOnly = true;
             // 
             // tableAFBindingSource
             // 
@@ -438,6 +448,7 @@
             this.dataGridView3.DataSource = this.tableNF1BindingSource;
             this.dataGridView3.Location = new System.Drawing.Point(0, 0);
             this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
             this.dataGridView3.Size = new System.Drawing.Size(1040, 352);
             this.dataGridView3.TabIndex = 1;
             // 
@@ -446,18 +457,21 @@
             this.организацияDataGridViewTextBoxColumn2.DataPropertyName = "Организация";
             this.организацияDataGridViewTextBoxColumn2.HeaderText = "Организация";
             this.организацияDataGridViewTextBoxColumn2.Name = "организацияDataGridViewTextBoxColumn2";
+            this.организацияDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // адресDataGridViewTextBoxColumn
             // 
             this.адресDataGridViewTextBoxColumn.DataPropertyName = "Адрес";
             this.адресDataGridViewTextBoxColumn.HeaderText = "Адрес";
             this.адресDataGridViewTextBoxColumn.Name = "адресDataGridViewTextBoxColumn";
+            this.адресDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "Телефон_Email";
             this.dataGridViewTextBoxColumn3.HeaderText = "Телефон; Email";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
             // tableNF1BindingSource
             // 
@@ -504,17 +518,19 @@
             this.dataGridViewTextBoxColumn5.DataPropertyName = "№";
             this.dataGridViewTextBoxColumn5.HeaderText = "№";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             // 
             // фИОDataGridViewTextBoxColumn
             // 
             this.фИОDataGridViewTextBoxColumn.DataPropertyName = "ФИО";
             this.фИОDataGridViewTextBoxColumn.HeaderText = "ФИО";
             this.фИОDataGridViewTextBoxColumn.Name = "фИОDataGridViewTextBoxColumn";
+            this.фИОDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(975, 421);
+            this.button1.Location = new System.Drawing.Point(975, 426);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 27);
             this.button1.TabIndex = 1;
@@ -525,7 +541,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(897, 421);
+            this.button2.Location = new System.Drawing.Point(897, 426);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 27);
             this.button2.TabIndex = 2;
@@ -598,7 +614,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 529);
+            this.label1.Location = new System.Drawing.Point(28, 522);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 4;
@@ -624,7 +640,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1071, 453);
+            this.ClientSize = new System.Drawing.Size(1071, 458);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
@@ -634,7 +650,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Интеграция";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

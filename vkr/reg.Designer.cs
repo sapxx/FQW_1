@@ -291,7 +291,7 @@
             this.Controls.Add(this.button5);
             this.Name = "reg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "reg";
+            this.Text = "Авторизация";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.reg_FormClosed);
             this.Load += new System.EventHandler(this.reg_Load);
             this.panel1.ResumeLayout(false);

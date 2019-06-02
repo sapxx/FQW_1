@@ -145,7 +145,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "incadd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "incadd";
+            this.Text = "Добавить Организацию";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
