@@ -91,6 +91,12 @@
     <Compile Include="reg.Designer.cs">
       <DependentUpon>reg.cs</DependentUpon>
     </Compile>
+    <Compile Include="workdel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workdel.Designer.cs">
+      <DependentUpon>workdel.cs</DependentUpon>
+    </Compile>
     <Compile Include="бдDataSet.cs">
       <DependentUpon>бдDataSet.xsd</DependentUpon>
     </Compile>
@@ -120,6 +126,9 @@
     </Compile>
     <EmbeddedResource Include="reg.resx">
       <DependentUpon>reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workdel.resx">
+      <DependentUpon>workdel.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">

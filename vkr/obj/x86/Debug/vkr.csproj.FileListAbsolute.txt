@@ -37,3 +37,4 @@ D:\GitHub\FQW_1\vkr\obj\x86\Debug\vkr.csproj.GenerateResource.cache
 D:\GitHub\FQW_1\vkr\obj\x86\Debug\vkr.csproj.CoreCompileInputs.cache
 D:\GitHub\FQW_1\vkr\obj\x86\Debug\vkr.exe
 D:\GitHub\FQW_1\vkr\obj\x86\Debug\vkr.pdb
+D:\GitHub\FQW_1\vkr\obj\x86\Debug\vkr.workdel.resources

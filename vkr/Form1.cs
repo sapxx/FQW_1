@@ -359,5 +359,20 @@ namespace vkr
             }
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            workdel w1 = new workdel();
+            w1.ShowDialog();
+            if (w1.DialogResult == DialogResult.OK)
+            {
+               int b = dataGridView4.CurrentRow.Index;
+                dataGridView4.Rows.Remove(dataGridView4.Rows[b]);
+                button1.PerformClick();
+                Thread.Sleep(1000);
+                button2.PerformClick();
+
+            }
+        }
     }
 }

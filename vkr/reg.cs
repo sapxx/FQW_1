@@ -21,7 +21,6 @@ namespace vkr
         {
             InitializeComponent();
             myConnection = new OleDbConnection(connectString);
-            myConnection.Open();
             
         }
         private void reg_Load(object sender, EventArgs e)
@@ -92,8 +91,7 @@ namespace vkr
                     Application.Exit();
 
                 }
-
-            myConnection.Close();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -141,6 +139,7 @@ namespace vkr
             dateTimePicker1.ResetText();
             panel1.Hide();
             panel2.Hide();
+            myConnection.Close();
         }
     }
 }
